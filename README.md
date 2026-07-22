@@ -20,6 +20,14 @@
   <img alt="Status" src="https://img.shields.io/badge/status-capstone%20project-f5c400">
 </p>
 
+<!-- ┌──────────────────────────────────────────────────────────────────────┐
+     │ LIVE DEMO: after you deploy, paste your URL below (replace the # in   │
+     │ the badge link AND the "coming soon" text), then delete this comment.│
+     └──────────────────────────────────────────────────────────────────────┘ -->
+<p align="center">
+  <a href="#"><img alt="Live Demo" src="https://img.shields.io/badge/🔗_Live_Demo-coming_soon-1a5c2a?style=for-the-badge"></a>
+</p>
+
 ---
 
 ## 📖 Overview
@@ -74,6 +82,10 @@ facility information along the way.
 | ![Homepage](screenshots/home.png) | ![360° Tour Viewer](screenshots/tour.png) |
 | **Interactive Campus Map** | **Locations Gallery** |
 | ![Interactive Campus Map](screenshots/map.png) | ![Locations Gallery](screenshots/locations.png) |
+| **Admin Tour Builder** | **Built-in Privacy Blur Tool** |
+| ![Admin Tour Builder — visual hotspot placement](screenshots/hotspot_builder.png) | ![Privacy Blur Tool — blur faces & plates on the panorama](screenshots/privacy_tool.png) |
+
+<p align="center"><sub>The <strong>Admin Tour Builder</strong> places hotspots visually on the panorama; the <strong>Privacy Blur Tool</strong> bakes circular/rectangular blur regions over faces, plates, and signage — with one-click restore to the untouched original.</sub></p>
 
 ---
 
