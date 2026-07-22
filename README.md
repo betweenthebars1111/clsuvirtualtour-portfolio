@@ -133,9 +133,9 @@ A clean, university-grade visual identity built around the CLSU brand:
 
 Developed as a capstone project by BSIT students of **Central Luzon State University**:
 
-- **Cruz, Jimwell J.**
-- **Recometa, Aina Patrice R.**
-- **Victoria, Angelo M.**
+- **Cruz, Jimwell J. - Full-Stack Engineer**
+- **Recometa, Aina Patrice R.- Media Manager & Photographer**
+- **Victoria, Angelo M. - Documentations Manager**
 
 **Adviser:** Dr. Cristian Rey C. Seco
 
