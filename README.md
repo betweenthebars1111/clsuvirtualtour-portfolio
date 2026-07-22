@@ -3,7 +3,11 @@
   This repo is documentation only — the source code is private.
 -->
 
-<h1 align="center">🏛️ CLSU Virtual Tour</h1>
+<p align="center">
+  <img src="assets/clsu-logo.jpg" alt="Central Luzon State University Seal" width="140">
+</p>
+
+<h1 align="center">CLSU Virtual Tour</h1>
 
 <p align="center">
   <em>An immersive, web-based 360° virtual tour of Central Luzon State University —<br>
