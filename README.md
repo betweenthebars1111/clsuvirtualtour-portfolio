@@ -30,10 +30,9 @@
 <!-- ┌──────────────────────────────────────────────────────────────────────┐
      │ LIVE DEMO: after you deploy, paste your URL below (replace the # in   │
      │ the badge link AND the "coming soon" text), then delete this comment.
-     │ https://img.shields.io/badge/🔗_Live_Demo-coming_soon-1a5c2a?style=for-the-badge
      └──────────────────────────────────────────────────────────────────────┘ -->
 <p align="center">
-  <a href="#"><img alt="Live Demo" src="https://azure-porcupine-108650.hostingersite.com/"></a>
+  <a href="https://azure-porcupine-108650.hostingersite.com/"><img alt="Live Demo" src="https://img.shields.io/badge/🔗_Live_Demo-coming_soon-1a5c2a?style=for-the-badge"></a>
 </p>
 
 ---
