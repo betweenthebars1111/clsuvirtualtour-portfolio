@@ -29,7 +29,7 @@
 
 <p align="center">
   <a href="https://azure-porcupine-108650.hostingersite.com/">
-    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square" alt="Live Demo">
+    <img src="https://img.shields.io/badge/-Live%20Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
 ---
