@@ -32,6 +32,11 @@
     <img src="https://img.shields.io/badge/-Live%20Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
+
+<!-- 
+  If the live demo stops working, replace the badge above with:
+  <img src="https://img.shields.io/badge/Live-Demo-Coming%20Soon-gray?style=flat-square" alt="Coming Soon">
+-->
 ---
 
 ## 📖 Overview
