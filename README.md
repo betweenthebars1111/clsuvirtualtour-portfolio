@@ -27,14 +27,11 @@
   <img alt="Status" src="https://img.shields.io/badge/status-capstone%20project-f5c400">
 </p>
 
-<!-- ┌──────────────────────────────────────────────────────────────────────┐
-     │ LIVE DEMO: after you deploy, paste your URL below (replace the # in   │
-     │ the badge link AND the "coming soon" text), then delete this comment.
-     └──────────────────────────────────────────────────────────────────────┘ -->
 <p align="center">
-  <a href="https://azure-porcupine-108650.hostingersite.com/"><</a>
+  <a href="https://azure-porcupine-108650.hostingersite.com/">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square" alt="Live Demo">
+  </a>
 </p>
-
 ---
 
 ## 📖 Overview
