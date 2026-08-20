@@ -68,6 +68,14 @@ facility information along the way.
   navigation and facility questions and able to deep-link you straight to a location.
 - **Visitor Registration** — a lightweight "I am a…" flow that tailors the experience
   for students, alumni, and guests.
+- **Search Everywhere** — find any campus location from the navigation bar, or filter
+  the tour list and the map's location panel in place as you type.
+- **Guided First Visit** — a short, replayable walkthrough of the viewer controls, so
+  the first panorama is never a puzzle.
+- **Report a Problem** — visitors can flag a scene that shows something private, is
+  out of date, or will not load, and the campus team picks it up from a queue.
+- **Light & Dark Mode** — the whole site follows the device theme, or a saved
+  preference.
 - **Fully Responsive** — designed mobile-first for phones, tablets, and desktops.
 
 ### For Administrators
@@ -80,6 +88,16 @@ facility information along the way.
   onto a panorama, with a one-click restore to the original.
 - **Interactive Map Editor** — place and reposition location pins on a map picker.
 - **Usage Analytics** — track tour sessions, visited locations, and visitor stats.
+- **Multi-User Access Control** — a super admin plus a capped number of sub-admins,
+  each granted individual permissions from role presets. Suspending an account,
+  resetting a password, or changing a permission ends that user's live sessions on
+  their very next request.
+- **Content Report Queue** — triage what visitors flag, resolve or dismiss it with a
+  note, and jump straight to the scene or the hotspot builder to fix it. Reports are
+  never deleted, so a decision is always attributable.
+- **Append-Only Audit Log** — every admin action is recorded, including the ones that
+  were refused. The database itself rejects edits to past entries, and secrets are
+  stripped before anything is written.
 - **ISO/IEC 25010 Evaluation** — a built-in software-quality survey and results view.
 
 ---
@@ -116,6 +134,27 @@ facility information along the way.
   from a single config value.
 - **Image pipeline:** server-side GD compression, thumbnail generation, and
   equirectangular-aware privacy blurring.
+- **Authorization as a convention, enforced by tests:** the app has no router, so every
+  admin page and endpoint declares its own permission. A build check walks the whole
+  admin directory and fails if a single file omits one or names a key that does not
+  exist — unknown keys deny rather than allow.
+- **Privacy by default in public-facing data:** visitor addresses are hashed wherever
+  the public can write, and CSV exports neutralise spreadsheet formula injection before
+  anything reaches a reviewer's machine.
+
+---
+
+## 🧪 Quality Assurance
+
+The system is documented and verified against a formal test suite prepared in the
+format used by the university's **Management Information Systems Office**:
+
+- **241 test cases across 29 modules**, each mapped one-to-one to a numbered test
+  scenario so coverage can be traced in either direction.
+- **Dependency-free verification scripts** — no test framework, matching the rest of
+  the project — covering permission enforcement, the audit trail's append-only
+  guarantee, the report queue, and the guard convention above. They run against a real
+  database and clean up after themselves.
 
 ---
 
