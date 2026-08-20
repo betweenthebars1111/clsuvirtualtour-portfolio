@@ -81,12 +81,18 @@ facility information along the way.
 ### For Administrators
 - **Tour Builder CMS** — create tour *routes*, upload panoramic *scenes*, and place
   *hotspots* visually on the panorama — no code or raw JSON required.
-- **Searchable Management** — live search across routes, scenes, and locations.
+- **Searchable Management** — live search across routes, scenes, and locations, with a
+  published/draft filter for seeing at a glance what the public can actually reach.
 - **Automatic Panorama Compression** — massive ~40 MB 360°-camera exports are
   downscaled and optimized on upload for fast, mobile-friendly loading.
 - **Built-in Privacy Blur Tool** — permanently blur faces, plates, or signage directly
   onto a panorama, with a one-click restore to the original.
-- **Interactive Map Editor** — place and reposition location pins on a map picker.
+- **Interactive Map Editor** — place and reposition location pins on a map picker, and
+  set the campus map's opening view in a preview built to the exact proportions of the
+  visitor's screen, down to marking what will fall below their fold.
+- **Location Inventory Export** — one click produces a print-ready PDF of every
+  published location: thumbnail, category, scene count, and the scenes it contains, in
+  a document meant to be read and filed rather than edited.
 - **Usage Analytics** — track tour sessions, visited locations, and visitor stats.
 - **Multi-User Access Control** — a super admin plus a capped number of sub-admins,
   each granted individual permissions from role presets. Suspending an account,
@@ -138,6 +144,13 @@ facility information along the way.
   admin page and endpoint declares its own permission. A build check walks the whole
   admin directory and fails if a single file omits one or names a key that does not
   exist — unknown keys deny rather than allow.
+- **Documents without dependencies:** the inventory export writes the PDF object graph
+  itself — standard fonts, no embedding, and JPEG thumbnails passed straight through
+  `/DCTDecode` — so a paginated, image-bearing report costs the project nothing in
+  third-party code.
+- **Previews that tell the truth:** the map's default-view picker models the visitor's
+  viewport at real pixel size and scales it down, rather than approximating it in a box
+  of its own shape, so the framing an administrator chooses is the framing that opens.
 - **Privacy by default in public-facing data:** visitor addresses are hashed wherever
   the public can write, and CSV exports neutralise spreadsheet formula injection before
   anything reaches a reviewer's machine.
@@ -149,7 +162,7 @@ facility information along the way.
 The system is documented and verified against a formal test suite prepared in the
 format used by the university's **Management Information Systems Office**:
 
-- **241 test cases across 29 modules**, each mapped one-to-one to a numbered test
+- **249 test cases across 29 modules**, each mapped one-to-one to a numbered test
   scenario so coverage can be traced in either direction.
 - **Dependency-free verification scripts** — no test framework, matching the rest of
   the project — covering permission enforcement, the audit trail's append-only
