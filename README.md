@@ -115,12 +115,12 @@ facility information along the way.
 | ![Homepage](screenshots/home.png) | ![360° Tour Viewer](screenshots/tour.png) |
 | **Interactive Campus Map** | **Locations Gallery** |
 | ![Interactive Campus Map](screenshots/map.png) | ![Locations Gallery](screenshots/locations.png) |
+| **AI Campus Assistant** | **Admin Dashboard** |
+| ![AI Campus Assistant — the Gemini-powered chat panel open over the homepage](screenshots/ai_chatbot.png) | ![Admin Dashboard — content totals and the daily tour-visits graph](screenshots/admin_analytics.png) |
 | **Admin Tour Builder** | **Built-in Privacy Blur Tool** |
 | ![Admin Tour Builder — visual hotspot placement](screenshots/hotspot_builder.png) | ![Privacy Blur Tool — blur faces & plates on the panorama](screenshots/privacy_tool.png) |
-| **AI Campus Assistant** | |
-| ![AI Campus Assistant — the Gemini-powered chat panel open over the homepage](screenshots/ai_chatbot.png) | |
 
-<p align="center"><sub>The <strong>Admin Tour Builder</strong> places hotspots visually on the panorama; the <strong>Privacy Blur Tool</strong> bakes circular/rectangular blur regions over faces, plates, and signage — with one-click restore to the untouched original. The <strong>AI Campus Assistant</strong> answers campus questions from any page — scoped to CLSU navigation and facilities, rate-limited per session, and calling Gemini server-side so the API key never reaches the browser.</sub></p>
+<p align="center"><sub>The <strong>AI Campus Assistant</strong> answers campus questions from any page — scoped to CLSU navigation and facilities, rate-limited per session, and calling Gemini server-side so the API key never reaches the browser. Behind the login, the <strong>Dashboard</strong> counts what the tour holds and how it is being used day by day, the <strong>Tour Builder</strong> places hotspots visually on the panorama, and the <strong>Privacy Blur Tool</strong> bakes circular/rectangular blur regions over faces, plates, and signage — with one-click restore to the untouched original.</sub></p>
 
 ---
 
