@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <a href="https://azure-porcupine-108650.hostingersite.com/">
+  <a href="https://clsu-virtual-tour.test.miso-sandbox.cloud/">
     <img src="https://img.shields.io/badge/-Live%20Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
