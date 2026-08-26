@@ -4,10 +4,7 @@
 -->
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/clsu-seal-white.png">
-    <img src="assets/clsu-logo.jpg" alt="Central Luzon State University Seal" width="140">
-  </picture>
+  <img src="assets/tour-icon.png" alt="CLSU Virtual Tour" width="140">
 </p>
 
 <h1 align="center">CLSU Virtual Tour</h1>
